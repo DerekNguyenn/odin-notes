@@ -1,0 +1,29 @@
+/* Note to self: experiment with grid layout */
+.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px .5vw;
+    outline: 3px solid red;
+}
+
+.title {
+    font-size: calc(14px + 3vw);
+    text-align: center;
+}
+
+.code {
+    font-family: 'Consolas';
+    font-weight: bold;
+}
+
+.body {
+    outline: 2px solid blue;
+}
+
+.body, .code {
+    text-align: left;
+    font-size: calc(14px + 1vw);
+    flex: 0 0 33%;
+}

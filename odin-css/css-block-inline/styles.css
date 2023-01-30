@@ -2,24 +2,50 @@
     outline: 3px solid red;
 } */
 
-.title,
-.body {
+* {
     font-family: basic-sans, sans-serif;
 }
 
 .title {
-    font-weight: bold;
+    font-weight: bolder;
     color: rgb(255, 115, 0);
     text-transform: lowercase;
     outline: 3px solid rgb(10, 247, 81);
     background-color: #2bfadb69;
 }
 
+/* Block level element */
 .body {
     background-color: rgba(233, 96, 75, 0.267);
     outline: 3px solid red;
+    padding: 15px;
 }
 
 .body > p {
     outline: 3px solid rgb(85, 10, 247);
+}
+
+/* Inline element */
+a > .body {
+    color: blue;
+    font-weight: bold;
+    outline: 3px solid rgb(242, 8, 242);
+    padding-right: 50px; /* Horizontal padding will push other elements */
+    padding-top: 10px; /* Verticla padding will apply but will do nothing */
+}
+
+.btn {
+    display:inline-block;
+    border-radius: 5px;
+    background: lightblue;
+    color: black;
+    margin-top: 20px;
+    padding: 50px 100px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background: darkblue;
+    color: white;
 }

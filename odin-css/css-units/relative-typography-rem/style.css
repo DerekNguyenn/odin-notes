@@ -1,0 +1,28 @@
+html {
+	font-size: 20px;
+	text-align: center;
+}
+
+.container {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	display: inline-block;
+	background-color: rgb(246, 76, 9);
+	width: 50%;
+	outline: 3px solid red;
+	max-width: 500px;
+	min-width: 250px;
+}
+
+p {
+	padding: 0 3%; 
+	text-align: left;
+	font-size: 1rem;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+.container > :is(p, h1) {
+	color: white;
+}
