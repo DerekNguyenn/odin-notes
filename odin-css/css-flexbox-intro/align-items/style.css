@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    gap: 10px;
+    padding: 1vw;
+    outline: 3px solid black;
+}
+
+.container1 {
+    align-items: flex-start;
+}
+
+.container2 {
+    align-items: flex-end;
+}
+
+.container3 {
+    align-items: center;
+}
+
+.container4 {
+    align-items: stretch;
+}
+
+.container5 {
+    align-items: baseline;
+}
+
+.box {
+    font-size: large;
+    text-align: center;
+    background-color: turquoise;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+}
+
+.box2 {
+    width: 100px;
+    height: 50px;
+}
+
+.box3 {
+    width: 200px;
+    height: 100px;
+}
+
+.box4 {
+    width: 50px;
+    height: 200px;
+}
+
+.container4 .box {
+    height: auto;
+    min-height: 250px;
+}
