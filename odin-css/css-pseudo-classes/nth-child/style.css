@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+}
+
+li:not(:last-child) {
+    margin-bottom: 4vh;
+}
+
+.gen0 > li:nth-child(1) {
+    color: rgb(0, 76, 255);
+}
+
+/* Start from 3rd, then iterate +1 */
+.gen0 > li:nth-child(1n+3) {
+    background-color: aqua;
+}
+
+/* Start from 1st, then iterate every other */
+/* Equivalent of using "odd" */
+.gen1 > li:nth-child(2n+1) {
+    background-color: rgba(153, 51, 146, 0.512);
+}
+
+li:nth-child(odd) {
+    outline: 3px solid blue;
+}
+
+li:nth-child(even) {
+    outline: 3px solid red;
+}
