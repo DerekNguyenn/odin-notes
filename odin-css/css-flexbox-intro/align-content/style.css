@@ -1,32 +1,14 @@
 .container {
-    /* display: flex;
-    padding: 0;
-    margin: 0;
-    width: 120px;
-    height: 300px;
-    padding: 10px;
-    border: 1px solid black;
-    margin-top: 0; */
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 20px 0 0;
     float: left;
     width: 120px;
     height: 300px;
     padding: 10px;
     border: 1px solid silver;
     margin-top: 10px;
-    
-    -ms-box-orient: horizontal;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: flex;
-    
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
 }
 
 .box {
