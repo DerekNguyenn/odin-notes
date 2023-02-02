@@ -30,3 +30,8 @@ li:nth-child(odd) {
 li:nth-child(even) {
     outline: 3px solid red;
 }
+
+/* Start at the 3rd to last item, then step 2 every iteration */
+li:nth-child(2n-3) {
+    font-weight: bold;
+}
