@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Open+Sans:wght@400;500;700&display=swap');
+
+.code {
+    font-family: 'Inconsolata', monospace;
+}
+
+.title, .std {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.std {
+    font-weight: normal;
+}
