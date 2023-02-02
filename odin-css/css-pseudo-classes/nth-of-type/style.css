@@ -1,0 +1,27 @@
+.gen {
+    font-size: 30px;
+}
+
+dt:last-of-type {
+    padding-top: 2vh;
+}
+
+dd {
+    font-size: 25px;
+}
+
+dd:nth-of-type(2n-3) {
+    outline: 3px solid red;
+}
+
+dd:nth-of-type(2n+3) {
+    color: blueviolet;
+}
+
+dd:nth-of-type(even) {
+    background-color: lightpink;
+}
+
+dd:nth-of-type(odd) {
+    background-color: lightgreen;
+}
