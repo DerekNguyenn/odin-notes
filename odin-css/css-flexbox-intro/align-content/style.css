@@ -24,35 +24,21 @@
 }
 
 .code {
-    font-size: 0;
+    font-size: 1.5em;
+    margin: 0;
 }
 
-/* .container {
+.what {
     display: flex;
-    gap: 15px;
-    max-width: 500px;
-    outline: 3px solid blue;
+    flex-direction: row;
+    outline: rgb(29, 240, 255) solid 3px;
     padding: 15px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
-.box {
-    width: 100px;
-}
-
-div.box:nth-of-type(even) {
-    background-color: rgb(255, 0, 234);
-    height: 150px;
-}
-
-div.box:nth-of-type(odd) {
-    background-color: red;
-    height: 100px;
-}
-
-div.box:nth-of-type(3n+4) {
-    background-color: blue;
-    height: 50px;
+.test-container {
+    outline: rgb(51, 0, 255) 3px solid;
 }
 
 .container1 {
@@ -77,4 +63,4 @@ div.box:nth-of-type(3n+4) {
 
 .container6 {
     align-content: space-around;
-} */
+}
