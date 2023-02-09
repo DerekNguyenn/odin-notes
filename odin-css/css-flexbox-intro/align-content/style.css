@@ -28,18 +28,18 @@
     margin: 0;
 }
 
-.what {
+.root-container {
     display: flex;
     flex-direction: row;
-    outline: rgb(29, 240, 255) solid 3px;
+    /* outline: rgb(29, 240, 255) solid 3px; */
     padding: 15px;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.test-container {
+/* .item-container {
     outline: rgb(51, 0, 255) 3px solid;
-}
+} */
 
 .container1 {
     align-content: flex-start;
