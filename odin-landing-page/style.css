@@ -14,20 +14,23 @@ body {
     width: 100vw;
     height: 100vh;
     flex-direction: column;
-    /* flex-wrap: nowrap; */
+    flex-wrap: nowrap;
 }
 
-/* .h-link-container {
+.header { 
     display: flex;
-    justify-content: center;
-    outline: 3px solid rgb(0, 179, 255);
-    flex: 1;
-    padding: 5px;
+    align-items: center;
 }
 
-.h-link {
-    outline: 3px solid green;
-} */
+.h-link-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.header > * {
+    flex: 1;
+}
 
 .header-container,
 .footer-container {
@@ -42,7 +45,7 @@ body {
 }
 
 .logo {
-    outline: 3px solid rgb(0, 179, 255);
+    /* outline: 3px solid rgb(0, 179, 255); */
     flex: 1;
     font-size: 24px;
     color: #F9FAF8;
@@ -65,6 +68,7 @@ body {
 
 .header,
 .footer {
+    padding: 10px;
     flex: 1 0 auto;
     background-color: #1F2937;
     min-height: 50px;
