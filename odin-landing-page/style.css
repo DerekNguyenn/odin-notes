@@ -14,25 +14,35 @@ body {
     width: 100vw;
     height: 100vh;
     flex-direction: column;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
 }
 
-.header {
-    display: flex;
-    padding: 5px;
-    outline: 3px solid red;
-    /* justify-content: space-evenly; */
-}
-
-.h-link-container {
+/* .h-link-container {
     display: flex;
     justify-content: center;
-    outline: 3px solid red;
+    outline: 3px solid rgb(0, 179, 255);
     flex: 1;
+    padding: 5px;
+}
+
+.h-link {
+    outline: 3px solid green;
+} */
+
+.header-container,
+.footer-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.content-body {
+    width: 75vw;
+    outline: 3px solid red;
 }
 
 .logo {
-    outline: 3px solid red;
+    outline: 3px solid rgb(0, 179, 255);
     flex: 1;
     font-size: 24px;
     color: #F9FAF8;
@@ -40,7 +50,9 @@ body {
 }
 
 .section {
+    display: flex;
     flex: 4 1 0;
+    justify-content: center;
 }
 
 .section:nth-of-type(2) {
