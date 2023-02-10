@@ -145,3 +145,14 @@ button {
     color: #E5E7EB;
     font-family: 'Roboto', sans-serif;
 }
+
+.info-box .subtext {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.information.text {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+}
