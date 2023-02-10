@@ -63,7 +63,9 @@ body {
 }
 
 .content-item.image {
-    flex: 1.5 0 0;
+    flex: 1 0 0;
+    align-self: center;
+    height: max-content;
 }
 
 a:link {
@@ -72,13 +74,7 @@ a:link {
 
 .main-image {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
-    max-width: 1000px;
-    max-height: 75%;
-    object-fit: contain;
-    flex: 1 0 auto;
 }
 
 .welcome {
