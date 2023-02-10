@@ -2,7 +2,7 @@
 
 ::-webkit-scrollbar {
     display: none;
- }
+}
 
 body {
     margin: 0;
@@ -15,6 +15,28 @@ body {
     height: 100vh;
     flex-direction: column;
     flex-wrap: nowrap;
+}
+
+.header {
+    display: flex;
+    padding: 5px;
+    outline: 3px solid red;
+    /* justify-content: space-evenly; */
+}
+
+.h-link-container {
+    display: flex;
+    justify-content: center;
+    outline: 3px solid red;
+    flex: 1;
+}
+
+.logo {
+    outline: 3px solid red;
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .section {
@@ -34,9 +56,21 @@ body {
     flex: 1 0 auto;
     background-color: #1F2937;
     min-height: 50px;
+    display: flex;
+}
+
+.footer {
+    font-size: 12px;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
 }
 
 .secondary-txt {
     font-size: 18px;
     color: #E5E7EB
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
 }
