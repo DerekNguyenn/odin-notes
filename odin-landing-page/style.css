@@ -7,6 +7,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #1F2937;
 }
 
 .content-container {
@@ -120,6 +121,10 @@ button {
     background-color: #E5E7EB;
 }
 
+.section:nth-of-type(odd) {
+    background-color: white;
+}
+
 .header,
 .footer {
     padding: 10px 0 10px 0;
@@ -149,10 +154,32 @@ button {
 .info-box .subtext {
     font-size: 18px;
     color: #1F2937;
+    text-align: center;
 }
 
 .information.text {
     font-weight: bolder;
     font-size: 36px;
     color: #1F2937;
+    text-align: center;
+}
+
+.info-box {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-box-wrapper {
+    display: flex;
+    margin: 45px 0 45px 0;
+}
+
+img.info {
+    width: 155px;
+    height: 150px;
+    fill: #E5E7EB;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
 }
