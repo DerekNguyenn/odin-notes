@@ -44,6 +44,28 @@ body {
     outline: 3px solid red;
 }
 
+.body-container {
+    display: flex;
+    height: 100%;
+    background-color: purple;
+    outline: 3px solid blueviolet;
+}
+
+.content-item {
+    flex-direction: column;
+    display: flex;
+    flex: 1 1 0;
+    background-color: red;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: grey;
+}
+
 .logo {
     /* outline: 3px solid rgb(0, 179, 255); */
     flex: 1;
