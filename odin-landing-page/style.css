@@ -151,6 +151,14 @@ button {
     font-family: 'Roboto', sans-serif;
 }
 
+.info-box-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    /* overflow: hidden; */
+    /* outline: 3px solid red; */
+    margin: 45px 0 45px 0;
+}
+
 .info-box .subtext {
     font-size: 18px;
     color: #1F2937;
@@ -171,14 +179,9 @@ button {
     gap: 10px;
 }
 
-.info-box-wrapper {
-    display: flex;
-    margin: 45px 0 45px 0;
-}
-
 img.info {
     width: 155px;
-    height: 150px;
+    height: 155px;
     fill: #E5E7EB;
     border: 3px solid #3882F6;
     border-radius: 15px;
