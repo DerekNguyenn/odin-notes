@@ -12,6 +12,8 @@ if (username === "Admin") {
     let password = prompt("Please enter your password");
     if (password === "TheMaster") {
         alert("Welcome!")
+    } else {
+        alert("Incorrect password.")
     }
 } else if (username !== "Admin") {
     alert("Unknown user.")
