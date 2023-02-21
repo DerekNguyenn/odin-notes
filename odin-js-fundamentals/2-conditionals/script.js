@@ -14,10 +14,17 @@ if (username === "Admin") {
     } else {
         alert("Incorrect password.")
     }
-} else if (username !== "Admin" && username !== null && username !== "") {
-    alert("Unknown user.")
 } else if (username === "") {
     alert("Username empty.")
+} else if (username === null) {
+    alert("Login canceled")
 } else {
-    alert("Login canceled.")
+    alert("Unknown user.")
 }
+// } else if (username !== "Admin" && username !== null && username !== "") {
+//     alert("Unknown user.")
+// } else if (username === "") {
+//     alert("Username empty.")
+// } else {
+//     alert("Login canceled.")
+// }
