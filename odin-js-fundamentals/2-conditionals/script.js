@@ -21,10 +21,3 @@ if (username === "Admin") {
 } else {
     alert("Unknown user.")
 }
-// } else if (username !== "Admin" && username !== null && username !== "") {
-//     alert("Unknown user.")
-// } else if (username === "") {
-//     alert("Username empty.")
-// } else {
-//     alert("Login canceled.")
-// }
