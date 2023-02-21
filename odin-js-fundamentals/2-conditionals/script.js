@@ -5,7 +5,6 @@
 // If the input is an empty line or Esc – show “Canceled”.
 // If it’s another string – then show “I don’t know you”.
 
-
 let username = prompt("Please enter your name");
 
 if (username === "Admin") {
@@ -15,7 +14,7 @@ if (username === "Admin") {
     } else {
         alert("Incorrect password.")
     }
-} else if (username !== "Admin") {
+} else if (username !== "Admin" && username !== null) {
     alert("Unknown user.")
 } else {
     alert("Login canceled.")
