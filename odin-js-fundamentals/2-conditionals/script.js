@@ -7,4 +7,10 @@
 
 
 let username = prompt("Please enter your name");
-let password = "TheMaster";
+
+if (username === "Admin") {
+    let password = prompt("Please enter your password");
+    if (password === "TheMaster") {
+        alert("Welcome!")
+    }
+}
