@@ -13,4 +13,6 @@ if (username === "Admin") {
     if (password === "TheMaster") {
         alert("Welcome!")
     }
+} else if (username === null) {
+		alert("Login canceled.")
 }
