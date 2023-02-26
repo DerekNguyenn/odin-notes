@@ -6,14 +6,6 @@ function ask(question, yes, no) {
 	else no();
 }
 
-function showOk() {
-	alert( "You agreed." );
-}  
-
-function showCancel() {
-	alert( "You canceled the execution." );
-}
-
 ask(
 	"Do you agree?",
   	function() {alert("You agreed.")},
