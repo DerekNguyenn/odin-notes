@@ -9,11 +9,9 @@
 let age = prompt("What is your age?", 18);
 
 if (age < 18) {
-    welcome();
     function welcome() {
       alert("Hello!");
     }
-    welcome();
   } else {
     function welcome() {
       alert("Greetings!");
