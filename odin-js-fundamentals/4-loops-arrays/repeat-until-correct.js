@@ -10,3 +10,9 @@ than 100 or cancels the input/enters an empty line.
 Here we can assume that the visitor only inputs numbers. 
 There’s no need to implement a special handling for a non-numeric input in this task.
 */
+
+let i;
+
+do {
+	i = prompt("Enter a number greater than 100");
+} while (i < 100 && i)
